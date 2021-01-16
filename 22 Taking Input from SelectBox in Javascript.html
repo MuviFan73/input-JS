@@ -1,0 +1,22 @@
+<html>
+    <title>#22 Taking Input from SelectBox in Javascript</title>
+    <script type="text/javascript">
+        function fn1()
+        {
+            var select= document.getElementById("selectbox");
+            alert(select.options[select.selectedIndex].value);
+        }
+    </script>
+    <head>
+        <body>
+            <select id="selectbox">
+                <option value="SS">SS</option>
+                <option value="TL">TL</option>
+                <option value="OK">OK</option>
+            </select>
+            <br>
+            <button onclick="fn1()" id="btn1">Click Me</button>
+
+        </body>
+    </head>
+    </html>
